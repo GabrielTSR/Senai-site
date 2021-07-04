@@ -1,0 +1,41 @@
+footer {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 500px;
+    padding-top: 10px;
+}
+
+#contact-Us {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+}
+
+footer a {
+    color: white;
+    font-size: 30px;
+}
+
+#redes-Sociais-Block {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#links-a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#links-a a:hover {
+    transition: all 1s;
+    color: red;
+    font-size: 35px;
+}

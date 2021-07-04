@@ -1,0 +1,43 @@
+.FPOO {
+    display: flex;
+    flex-direction: column;
+}
+
+.FPOO h1 {
+    width: 100vw;
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#conteudo-Container {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    gap: 20px;
+}
+
+#aside-FPOO {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#aside-FPOO :first-child img {
+    width: 20vw;
+    height: 20vw;
+}
+
+#aside-FPOO :nth-child(1) {
+    width: 20vw;
+    height: 6vw;
+}

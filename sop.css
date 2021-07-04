@@ -1,0 +1,24 @@
+#videoSOP-Block {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.each-VideoAndText {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 20px;
+    background-color: rgba(92, 82, 82, 0.37);
+}
+
+.SOP h3 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.SOP p {
+    text-align: justify;
+    padding-right: 10px;
+    padding-left: 10px;
+}

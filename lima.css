@@ -1,0 +1,16 @@
+.LIMA {
+    text-align: justify;
+    width: 100vw;
+}
+
+#imageLima-Line {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+#imageLima-Line img {
+    width: 30vw;
+    height: 25vw;
+}

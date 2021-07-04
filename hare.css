@@ -1,0 +1,40 @@
+.HARE {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.each-LinhaHARE {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    justify-content: center;
+}
+
+.each-LinaHARE :nth-child(1) {
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.each-LinhaHARE img {
+    width: 30vw;
+    height: 20vw;
+}
+
+.each-LinhaHARE :nth-child(2) {
+    width: 20vw;
+    text-align: center;
+    align-items: center;
+}
+
+.each-LinhaHARE :nth-child(3) {
+    width: 50vw;
+    align-items: center;
+    text-align: justify;
+}
