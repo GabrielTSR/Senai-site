@@ -46,7 +46,13 @@
         width: 45vw;
         height: 15vw;
     }
-    .each-LinaHARE :nth-child(1) {
+    .each-LinhaHARE {
+        gap: 50px;
+    }
+    .each-LinhaHARE p {
+        margin-bottom: 100px;
+    }
+    .each-LinhaHARE .each-LinhaHARE :nth-child(1) {
         width: 100vw;
         align-items: center;
         justify-content: center;
