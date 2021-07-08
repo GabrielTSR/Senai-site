@@ -16,11 +16,11 @@
 }
 
 .Dark-Theme {
-    background-color: black;
-    color: white;
+    background-color: #2a2a37;
+    color: rgb(233, 230, 229);
 }
 
-.red-Theme {
-    background-color: rgba(214, 16, 16, 0.966);
-    color: white;
+.Light-Theme {
+    background-color: rgb(233, 230, 229);
+    color: rgb(68, 67, 66);
 }

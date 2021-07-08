@@ -1,6 +1,6 @@
 @media (max-width: 751px) {
     .colunas-Links {
-        display: none;
+        /* display: none; */
     }
     .primeiro-link,
     .segundo-link,
@@ -36,15 +36,16 @@
         width: 90%;
         height: 30vw;
         align-items: flex-start;
+        align-items: center;
         justify-content: space-around;
     }
     #aside-FPOO :first-child img {
         width: 25vw;
         height: 25vw;
     }
-    #aside-FPOO :nth-child(1) {
-        width: 45vw;
-        height: 15vw;
+    #aside-FPOO :nth-child(2) img {
+        width: 35vw;
+        height: 25vw;
     }
     .each-LinhaHARE {
         gap: 50px;
@@ -76,7 +77,14 @@
     }
 }
 
-@media (min-width: 1216px) {
+@media(max-width: 1087px) {
+    .FPOO,
+    .LIMA {
+        height: 110%;
+    }
+}
+
+@media (min-width: 1238px) {
     #aside-FPOO {
         justify-content: space-between;
     }

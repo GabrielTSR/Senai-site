@@ -4,7 +4,7 @@
     align-items: center;
     height: 100vh;
     background: rgb(255, 0, 0);
-    background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 53%, rgb(0, 0, 0) 100%);
+    background: linear-gradient(180deg, rgba(255, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 60%, #2a2a37 95%);
     background-size: 100%;
     padding: 30px;
     font-size: 20px;

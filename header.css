@@ -9,11 +9,12 @@ body {
     flex-direction: column;
     font-family: 'Karla', sans-serif;
     overflow-x: hidden;
-    background-color: black;
+    background-color: #2a2a37;
 }
 
 body a {
     text-decoration: none;
+    width: 100vw;
 }
 
 header {
@@ -62,9 +63,10 @@ header ul li a,
 header ul li a:hover,
 .elementos-Direita a:hover {
     transition: all 1s;
-    background-color: red;
+    background-color: #c40000;
     color: white;
     font-size: 21px;
+    border-radius: 5px;
 }
 
 .elementos-Esquerda {

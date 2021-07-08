@@ -16,7 +16,7 @@ footer {
 }
 
 footer a {
-    color: white;
+    color: rgb(233, 230, 229);
     font-size: 30px;
 }
 
@@ -31,11 +31,12 @@ footer a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 150px;
+    height: 40px;
 }
 
 #links-a a:hover {
     transition: all 1s;
-    color: red;
+    color: #c40000;
     font-size: 35px;
 }
