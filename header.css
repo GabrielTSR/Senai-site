@@ -37,7 +37,7 @@ header {
     border-bottom: 2px solid white;
 }
 
-.alternar-menu {
+#alternar-menu {
     display: none;
 }
 
@@ -57,7 +57,7 @@ header ul li {
 }
 
 header ul li a,
-.elementos-Direita a {
+#elementos-Direita a {
     color: black;
     font-size: 20px;
     font-weight: bold;
@@ -65,7 +65,7 @@ header ul li a,
 }
 
 header ul li a:hover,
-.elementos-Direita a:hover {
+#elementos-Direita a:hover {
     transition: all 1s;
     background-color: #c40000;
     color: white;
@@ -73,7 +73,7 @@ header ul li a:hover,
     border-radius: 5px;
 }
 
-.elementos-Esquerda {
+#elementos-Esquerda {
     display: flex;
     flex-grow: 1;
     height: 100%;
@@ -90,12 +90,12 @@ header ul li a:hover,
     margin-right: 20px;
 }
 
-.elementos-Esquerda img {
+#elementos-Esquerda img {
     height: 30px;
     width: 100px;
 }
 
-.elementos-Direita {
+#elementos-Direita {
     display: flex;
     flex-grow: 1;
     height: 100%;
@@ -104,7 +104,7 @@ header ul li a:hover,
     align-items: center;
 }
 
-.elementos-Direita a {
+#elementos-Direita a {
     display: flex;
     text-align: center;
     align-items: center;

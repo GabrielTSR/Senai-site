@@ -1,16 +1,40 @@
 @media (max-width: 751px) {
-    .colunas-Links {
-        /* display: none; */
+    #colunas-Links,
+    #elementos-Direita {
+        display: none;
     }
-    .primeiro-link,
-    .segundo-link,
-    .terceiro-link,
-    .quarto-link,
-    .quinto-link {
-        background-color: white;
-        height: 5px;
-        width: 100%;
-        margin: 6px auto;
+    #alternar-menu {
+        display: flex;
+        width: 40px;
+        height: 35px;
+        color: #c40000;
+        text-align: center;
+        padding-top: 10px;
+        flex-direction: column;
+    }
+    #alternar-menu div {
+        display: none;
+    }
+    #alternar-menu:hover {
+        transition: all 0.4s;
+        color: white;
+        background-color: #c40000;
+        border-radius: 5px;
+    }
+    #alternar-menu:hover div {
+        display: flex;
+        flex-direction: row;
+        text-align: start;
+        background-color: #c40000;
+        width: 80px;
+    }
+    #alternar-menu:hover div a {
+        text-decoration: none;
+        color: white;
+    }
+    #alternar-menu:hover div a:hover {
+        transition: all 1s;
+        border-left: 10px solid white
     }
     #videoSOP-Block,
     .each-LinhaHARE,
