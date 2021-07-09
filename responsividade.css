@@ -31,12 +31,13 @@
         flex-direction: row;
         text-align: start;
         background-color: #c40000;
-        width: 200px;
+        width: 220px;
     }
     #alternar-menu:hover div a {
         text-decoration: none;
         font-size: 25px;
         color: white;
+        padding: 10px;
     }
     #alternar-menu:hover div a:hover {
         transition: all 1s;
