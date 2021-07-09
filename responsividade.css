@@ -55,15 +55,12 @@
         margin-bottom: 100px;
     }
     .each-LinhaHARE .each-LinhaHARE :nth-child(1) {
+        height: 100%;
+        object-fit: cover;
         width: 100vw;
+        background-color: red;
         align-items: center;
         justify-content: center;
-    }
-    .each-LinhaHARE img {
-        padding-left: 60px;
-        width: 97vw;
-        height: 60vw;
-        text-align: center;
     }
     .each-LinhaHARE :nth-child(2) {
         width: 100vw;

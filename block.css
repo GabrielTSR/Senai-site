@@ -18,23 +18,11 @@
 }
 
 .Dark-Theme {
-    background-color: rgb(45, 45, 48);
-    color: rgb(196, 192, 192);
-}
-
-.Dark-Theme:hover {
-    transition: all 1s;
     background-color: #2a2a37;
     color: rgb(233, 230, 229);
 }
 
 .Light-Theme {
-    background-color: rgb(209, 199, 199);
-    color: rgb(54, 53, 52);
-}
-
-.Light-Theme:hover {
-    transition: all 1s;
     background-color: rgb(233, 229, 229);
     color: rgb(68, 67, 66);
 }

@@ -16,21 +16,20 @@
     justify-content: center;
 }
 
-.each-LinaHARE :nth-child(1) {
-    width: 30vw;
-    align-items: center;
-    justify-content: center;
-}
+.each-LinhaHARE h2 {}
 
-.each-LinhaHARE img {
+.each-LinhaHARE :nth-child(1) {
     width: 30vw;
     height: 20vw;
+    align-items: center;
+    justify-content: center;
 }
 
 .each-LinhaHARE :nth-child(2) {
     width: 20vw;
     text-align: center;
     align-items: center;
+    word-wrap: break-word;
 }
 
 .each-LinhaHARE :nth-child(3) {

@@ -73,7 +73,3 @@
     visibility: visible;
     z-index: 10;
 }
-
-#FPOO p:hover~h1 {
-    color: red;
-}
