@@ -17,15 +17,16 @@
     #conteudo-Container {
         flex-direction: column;
     }
+    .slider,
+    .slider img {
+        height: 50vh;
+    }
     #conteudo-Container {
         width: 100vw;
     }
-    .each-VideoAndText {
-        background-color: black
-    }
     .LIMA p,
     .SOP p {
-        width: 90vw;
+        width: 100%;
     }
     article {
         width: 90%;
@@ -74,13 +75,6 @@
         width: 100vw;
         align-items: center;
         text-align: justify;
-    }
-}
-
-@media(max-width: 1087px) {
-    .FPOO,
-    .LIMA {
-        height: 110%;
     }
 }
 

@@ -6,6 +6,8 @@
     font-size: 20px;
     width: 100vw;
     gap: 20px;
+    min-height: 100vh;
+    scroll-behavior: smooth;
 }
 
 .Block h1 {
@@ -16,11 +18,33 @@
 }
 
 .Dark-Theme {
+    background-color: rgb(45, 45, 48);
+    color: rgb(196, 192, 192);
+}
+
+.Dark-Theme:hover {
+    transition: all 1s;
     background-color: #2a2a37;
     color: rgb(233, 230, 229);
 }
 
 .Light-Theme {
-    background-color: rgb(233, 230, 229);
+    background-color: rgb(209, 199, 199);
+    color: rgb(54, 53, 52);
+}
+
+.Light-Theme:hover {
+    transition: all 1s;
+    background-color: rgb(233, 229, 229);
     color: rgb(68, 67, 66);
+}
+
+.Block a img:hover {
+    transition: all 1s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    border-radius: 20px;
 }
