@@ -1,31 +1,23 @@
 let time = 5000,
-    currentImageIndex = 0,
-    images = document
-    .querySelectorAll(".slider li img")
-max = images.length;
+    currentInputIndex = 0,
+    inputs = document.querySelectorAll('.slider > li > input'),
+    maxOfInputs = inputs.length;
 
 function click(id) {
 
-    var element = document.getElementById(id);
-    if (element.click)
-        element.click();
-    else if (document.createEvent) {
-        var eventObj = document.createEvent('MouseEvents');
-        eventObj.initEvent('click', true, true);
-        element.dispatchEvent(eventObj);
-    }
-
+    let input = inputs[id];
+    inputs[currentInputIndex].checked = false;
+    input.checked = true;
 }
 
 function start() {
-    setInterval(() => {
+    setInterval(function() {
+        let id = (currentInputIndex + 1) % maxOfInputs;
 
+        click(id)
+        currentInputIndex = id;
 
-        click('slide1')
-        click('slide2')
-        click('slide3')
-
-    }, time)
+    }, time);
 }
 
 window.addEventListener("load", start)
