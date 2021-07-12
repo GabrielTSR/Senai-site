@@ -15,6 +15,18 @@
         padding-left: 30px;
     }
     
+    #redes-sociais {
+        background-color: red;
+    }
+    
+    #made-By {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 100%;
+    }
+    
     footer div {
         height: 100%;
     }
@@ -22,11 +34,6 @@
     footer a {
         color: rgb(233, 230, 229);
         font-size: 30px;
-    }
-    
-    #redes-Sociais-Block {
-        display: flex;
-        flex-direction: column;
     }
     
     #links-a {
@@ -47,13 +54,4 @@
         -o-transform: scale(1.1);
         -ms-transform: scale(1.1);
         transform: scale(1.1);
-    }
-    
-    #Made-By {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 300px;
-        height: 100%;
     }

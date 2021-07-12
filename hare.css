@@ -16,13 +16,9 @@
     justify-content: center;
 }
 
-.each-LinhaHARE h2 {}
-
 .each-LinhaHARE :nth-child(1) {
-    width: 30vw;
-    height: 20vw;
-    align-items: center;
-    justify-content: center;
+    object-fit: cover;
+    width: 50vw;
 }
 
 .each-LinhaHARE :nth-child(2) {
@@ -33,7 +29,7 @@
 }
 
 .each-LinhaHARE :nth-child(3) {
-    width: 50vw;
+    width: 30vw;
     align-items: center;
     text-align: justify;
 }

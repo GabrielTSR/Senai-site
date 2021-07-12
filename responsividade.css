@@ -1,4 +1,14 @@
 @media (max-width: 751px) {
+    html,
+    body,
+    main,
+    .Block {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
     #colunas-Links,
     #elementos-Direita {
         display: none;
@@ -48,6 +58,9 @@
     #conteudo-Container {
         flex-direction: column;
     }
+    #entrada {
+        height: 75vh;
+    }
     .slider,
     .slider img {
         height: 50vh;
@@ -86,16 +99,12 @@
         margin-bottom: 100px;
     }
     .each-LinhaHARE .each-LinhaHARE :nth-child(1) {
-        height: 100%;
-        object-fit: cover;
-        width: 100vw;
-        background-color: red;
         align-items: center;
         justify-content: center;
     }
     .each-LinhaHARE :nth-child(2) {
         width: 100vw;
-        text-align: center;
+        justify-content: center;
         align-items: center;
     }
     .each-LinhaHARE :nth-child(3) {
@@ -103,6 +112,16 @@
         width: 100vw;
         align-items: center;
         text-align: justify;
+    }
+}
+
+@media(max-width: 600px) {
+    #entrada {
+        height: 50vh;
+    }
+    .slider,
+    .slider img {
+        height: 35vh;
     }
 }
 
