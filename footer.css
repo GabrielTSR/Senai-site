@@ -2,9 +2,10 @@
         height: 100%;
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: flex-start;
         justify-content: space-around;
         max-width: 700px;
+        gap: 20px;
     }
     
     #contact-Us {
@@ -15,15 +16,11 @@
         padding-left: 30px;
     }
     
-    #redes-sociais {
-        background-color: red;
-    }
-    
     #made-By {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 300px;
+        max-width: 400px;
         height: 100%;
     }
     
