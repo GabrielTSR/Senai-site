@@ -68,6 +68,10 @@ header ul li a:hover,
 #elementos-Direita a:hover {
     transition: all 1s;
     background-color: #c40000;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
     color: white;
     font-size: 21px;
     border-radius: 5px;
