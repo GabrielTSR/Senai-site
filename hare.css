@@ -17,8 +17,9 @@
 }
 
 .each-LinhaHARE :nth-child(1) {
-    object-fit: cover;
-    width: 50vw;
+    /* object-fit: cover; */
+    width: 20vw;
+    height: 28vh;
 }
 
 .each-LinhaHARE :nth-child(2) {

@@ -98,9 +98,9 @@
     .each-LinhaHARE p {
         margin-bottom: 100px;
     }
-    .each-LinhaHARE .each-LinhaHARE :nth-child(1) {
-        align-items: center;
-        justify-content: center;
+    .each-LinhaHARE :nth-child(1) {
+        width: 70vw;
+        height: 30vh;
     }
     .each-LinhaHARE :nth-child(2) {
         width: 100vw;
