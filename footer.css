@@ -5,6 +5,7 @@
         align-items: flex-start;
         max-width: 100vw;
         gap: 20px;
+        justify-content: space-around;
     }
     
     #contact-Us {
